@@ -1,19 +1,24 @@
 # Hi barKys :-)
-## Remember your git sh!t.
+Remember your git sh!t.
 
-to clone:
-    git clone https://github.com/barkYboY/Hello-world
+## To clone:
+```
+git clone https://github.com/barkYboY/Hello-world
+```
+## To authenticate or login:
+```
+gh auth login
+```
 
-To authenticate or login:
-    gh auth login
-
-to push:
+## To push:
 
 ###  1: add files to your up load list:
 ```
 git add <files>
 ```
-       or
+
+	or
+
 ```
 git add .
 ```
