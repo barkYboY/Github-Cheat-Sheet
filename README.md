@@ -1,7 +1,7 @@
 # Hi barKys :-)
 Remember your git sh!t.
 
-to clone
+to clone:
 git clone https://github.com/barkYboY/Hello-world
 
 To authenticate or login:
