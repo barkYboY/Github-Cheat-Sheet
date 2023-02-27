@@ -37,15 +37,21 @@ git commit -m "message for this update to <files>" -a
 ```
 git push origin master
 ```
-### 4: Noteworthy commands
+### 4: pull changes that you didn't put there
+```
+git pull
+```
+
+### 5: Noteworthy commands
 ##### Program that shows difs well
 ```
+git diff
 gitk
 gh repo create
 ```
 ###### note when you say clone locally it creates the project dir.
 
-### 5: Check out the tutorial for what's past this
+### 6: Check out the tutorial for what's past this
 ```
 info gitturtorial
 ```
