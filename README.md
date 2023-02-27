@@ -9,10 +9,10 @@ To authenticate or login:
 
 to push:
 
-  1: add files to your up load list
-      git add <files>
-        <or for all>
-      git add .
+  1: add files to your up load list:
+      1a: git add <files>
+      1a:   <or for all>
+      1b: git add .
 
   1a: Option:To check <files> to push status with:
       git status
