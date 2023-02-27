@@ -33,9 +33,13 @@ git commit -m "message for this <files> change "
 ```
 git commit -m "message for this update to <files>" -a
 ```
-### 3: Make the exchange with server
+### 3: Pusblish local changes with remote server
 ```
 git push origin master
+```
+##### or in lazy fasion
+```
+git push
 ```
 ### 4: pull changes that you didn't put there
 ```
