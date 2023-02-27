@@ -17,7 +17,7 @@ gh auth login
 git add <files>
 ```
 
-	or
+##### or
 
 ```
 git add .
