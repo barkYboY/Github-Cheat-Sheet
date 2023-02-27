@@ -43,7 +43,7 @@ git push origin master
 gitk
 gh repo create
 ```
-######note when you say clone locally it creates the project dir.
+###### note when you say clone locally it creates the project dir.
 
 ### 5: Check out the tutorial for what's past this
 ```
