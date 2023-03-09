@@ -55,7 +55,14 @@ gh repo create
 ```
 ###### note when you say clone locally it creates the project dir.
 
-### 6: Check out the tutorial for what's past this
+### 6: Other useful stuff related to branches and such
+```
+git fetch    #updates listings with remote
+git checkout <branch_name>  #checkout a branch
+git config --list  #show you what's in config
+git switch <branch_name> #use - to flip through used list
+```
+### 7: Check out the tutorial for what's past this
 ```
 info gitturtorial
 ```
