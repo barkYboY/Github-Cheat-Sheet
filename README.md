@@ -46,16 +46,23 @@ git push
 git pull
 ```
 
-### 5: Noteworthy commands
+### 5: Setup new repo 
+```
+gh repo create  #answer interactive questions
+git init
+git remote add newrepo https://github.com/owner/repo
+gh repo set-default
+```
+
+### 6: Noteworthy commands
 ##### Program that shows difs well
 ```
 git diff
 gitk
-gh repo create
 ```
 ###### note when you say clone locally it creates the project dir.
 
-### 6: Other useful stuff related to branches and such
+### 7: Other useful stuff related to branches and such
 ```
 git fetch    #updates listings with remote
 git checkout <branch_name>  #checkout a branch
