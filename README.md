@@ -46,7 +46,7 @@ git push
 git pull
 ```
 
-### 5: Setup new repo from existing code base bArky-DataPlotter
+### 5: Setup new repo from existing project like TopPage
 ```
 rm -rf .git
 git init
