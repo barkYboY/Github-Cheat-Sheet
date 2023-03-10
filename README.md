@@ -46,14 +46,16 @@ git push
 git pull
 ```
 
-### 5: Setup new repo 
+### 5: Setup new repo from existing code base bArky-DataPlotter
 ```
-gh repo create  #answer interactive questions
+rm -rf .git
 git init
-git remote add newrepo https://github.com/owner/repo
-gh repo set-default
+gh repo create  #push local repository . and answer interactive questions
+git branch -M main
+git add .
+git commit -m "Initial setup of repo"
+git push --set-upstream origin main
 ```
-
 ### 6: Noteworthy commands
 ##### Program that shows difs well
 ```
