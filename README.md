@@ -10,7 +10,7 @@ git clone https://github.com/barkYboY/Hello-world
 gh auth login
 ```
 
-## To push:
+## To push and then some:
 
 ###  1: add files to your up load list:
 ```
