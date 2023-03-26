@@ -56,7 +56,14 @@ git add .
 git commit -m "Initial setup of repo"
 git push --set-upstream origin main
 ```
-### 6: Noteworthy commands
+### 6: Updating a branch
+```
+git checkout [branchname]
+git merge [main]
+#resolve any conflict diversions of branch
+git push
+```
+### 7: Noteworthy commands
 ##### Program that shows difs well
 ```
 git diff
@@ -64,14 +71,14 @@ gitk
 ```
 ###### note when you say clone locally it creates the project dir.
 
-### 7: Other useful stuff related to branches and such
+### 8: Other useful stuff related to branches and such
 ```
 git fetch    #updates listings with remote
 git checkout <branch_name>  #checkout a branch
 git config --list  #show you what's in config
 git switch <branch_name> #use - to flip through used list
 ```
-### 7: Check out the tutorial for what's past this
+### 9: Check out the tutorial for what's past this
 ```
 info gitturtorial
 ```
